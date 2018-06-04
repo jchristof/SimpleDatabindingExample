@@ -2,7 +2,8 @@
 
 Basic databinding example demonstrates binding a FrameLayout's dimension, position and color to a data class.
 
-I had particular difficulty binding the layout dimensions. Thanks to [Keshav Aggarwal](https://stackoverflow.com/users/7482517/keshav-aggarwal) for the assist on [StackOverflow](https://stackoverflow.com/questions/50669421/kotlin-layout-width-and-height-binding/50670451?noredirect=1#comment88367138_50670451)
+I had particular difficulty binding the layout dimensions. The code and example show's the appropriate binding adapter declarations to make this work.
+Thanks to [Keshav Aggarwal](https://stackoverflow.com/users/7482517/keshav-aggarwal) for the assist on [StackOverflow](https://stackoverflow.com/questions/50669421/kotlin-layout-width-and-height-binding/50670451?noredirect=1#comment88367138_50670451)
 
 # Highlights
 
