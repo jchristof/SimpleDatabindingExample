@@ -6,11 +6,11 @@ Basic databinding example demonstrates binding a FrameLayout's dimension, positi
 
 build.gradle
 
-'''
+```
 apply plugin: 'kotlin-kapt'
-'''
+```
 
-'''
+```
 android {
 
     dataBinding {
@@ -21,10 +21,10 @@ android {
         generateStubs = true
     }
 }
-'''
+```
 
 # Layout declarations
-'''xml
+```xml
 <layout xmlns:android="http://schemas.android.com/apk/res/android">
     <data>
         <import type="com.example.bindingframedimensions.bindingframedimensions.BindingKt"/>
@@ -35,12 +35,12 @@ android {
 
     <FrameLayout/>
 </layout>
-'''
+```
 
 # BindingAdapter declarations
 
 Binding.kt
-'''
+```kotlin
 @BindingAdapter("android:layout_width")
 fun setLayoutWidth(view: View, width: Int) {
     val layoutParams = view.layoutParams
@@ -53,6 +53,6 @@ fun setLayoutHeight(view: View, height: Int) {
     val layoutParams = view.layoutParams
     layoutParams.height = height
     view.layoutParams = layoutParams
-'''
+```
 
 ![app image](./images/device-2018-06-04-074731.png)
