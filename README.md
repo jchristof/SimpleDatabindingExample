@@ -2,9 +2,9 @@
 
 Basic databinding example demonstrates binding a FrameLayout's dimension, position and color to a data class.
 
-#Highlights
+# Highlights
 
-#build.gradle
+build.gradle
 '''
 apply plugin: 'kotlin-kapt'
 '''
@@ -22,7 +22,7 @@ android {
 }
 '''
 
-#Layout declarations
+# Layout declarations
 '''
 <layout xmlns:android="http://schemas.android.com/apk/res/android">
     <data>
@@ -36,7 +36,7 @@ android {
 </layout>
 '''
 
-#BindingAdapter declarations
+# BindingAdapter declarations
 
 Binding.kt
 '''
