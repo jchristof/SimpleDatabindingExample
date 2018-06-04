@@ -34,7 +34,7 @@ android {
 
     <FrameLayout/>
 </layout>
-
+'''
 
 #BindingAdapter declarations
 
