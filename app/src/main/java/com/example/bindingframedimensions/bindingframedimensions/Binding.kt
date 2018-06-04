@@ -13,6 +13,6 @@ fun setLayoutWidth(view: View, width: Int) {
 @BindingAdapter("android:layout_height")
 fun setLayoutHeight(view: View, height: Int) {
     val layoutParams = view.layoutParams
-    layoutParams.width = height.toInt()
+    layoutParams.height = height.toInt()
     view.layoutParams = layoutParams
 }
