@@ -27,6 +27,9 @@ android {
 ```
 
 # Layout declarations
+
+panel.xml
+
 ```xml
 <layout xmlns:android="http://schemas.android.com/apk/res/android">
     <data>
