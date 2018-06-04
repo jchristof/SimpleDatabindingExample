@@ -5,6 +5,7 @@ Basic databinding example demonstrates binding a FrameLayout's dimension, positi
 # Highlights
 
 build.gradle
+
 '''
 apply plugin: 'kotlin-kapt'
 '''
@@ -23,7 +24,7 @@ android {
 '''
 
 # Layout declarations
-'''
+'''xml
 <layout xmlns:android="http://schemas.android.com/apk/res/android">
     <data>
         <import type="com.example.bindingframedimensions.bindingframedimensions.BindingKt"/>
